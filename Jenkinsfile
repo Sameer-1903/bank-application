@@ -6,7 +6,7 @@ pipeline {
         nodejs 'node16'
         
     }
-    
+
     environment{
         SCANNER_HOME= tool 'sonar-scanner'
     }
@@ -69,5 +69,3 @@ pipeline {
         }
     }
 }
-
-
